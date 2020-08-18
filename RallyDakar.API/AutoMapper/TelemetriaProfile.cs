@@ -4,11 +4,11 @@ using RallyDakar.Dominio.Entidades;
 
 namespace RallyDakar.API.AutoMapper
 {
-    public class PilotoProfile : Profile
+    public class TelemetriaProfile : Profile
     {
-        public PilotoProfile()
+        public TelemetriaProfile()
         {
-            CreateMap<Piloto, PilotoModelo>().ReverseMap();
+            CreateMap<Telemetria, TelemetriaModelo>().ReverseMap();
         }
     }
 }

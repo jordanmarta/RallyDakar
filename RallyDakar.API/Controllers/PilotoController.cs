@@ -20,7 +20,8 @@ namespace RallyDakar.API.Controllers
         private readonly IMapper _mapper;
         private readonly ILogger<PilotoController> _logger;
 
-        public PilotoController(IPilotoRepositorio pilotoRepositorio, IMapper mapper, ILogger<PilotoController> logger)
+        public PilotoController(IPilotoRepositorio pilotoRepositorio, 
+            IMapper mapper, ILogger<PilotoController> logger)
         {
             _pilotoRepositorio = pilotoRepositorio;
             _mapper = mapper;

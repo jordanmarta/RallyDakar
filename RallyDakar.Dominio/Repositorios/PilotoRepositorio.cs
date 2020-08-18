@@ -2,10 +2,8 @@
 using RallyDakar.Dominio.DbContexto;
 using RallyDakar.Dominio.Entidades;
 using RallyDakar.Dominio.Interfaces;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace RallyDakar.Dominio.Repositorios
 {
@@ -13,7 +11,7 @@ namespace RallyDakar.Dominio.Repositorios
     {
         private readonly RallyDbContexto _rallyDbContexto;
 
-        public PilotoRepositorio(RallyDbContexto    rallyDbContexto)
+        public PilotoRepositorio(RallyDbContexto rallyDbContexto)
         {
             _rallyDbContexto = rallyDbContexto;
         }
